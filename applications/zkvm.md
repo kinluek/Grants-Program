@@ -63,7 +63,7 @@ Following this he worked at a consultancy where he was the technical lead respon
 for government. In this role he was responsible for managing a technical team of 12 members.  He gained significant experience across
 architecture, engineering, devops, testing and project management.  He then started contributing to open source blockchain projects and found himself
 a part-time (evenings / weekends) role building a data oracle.  Following this he transitioned full time to blockchain development where he built reef chain, 
-an EVM compatible substrate based chain.  He is also a Mina genesis founding member and has developed a POC layer 2 rollup based DEX for Mina.  His
+an EVM compatible substrate based chain.  He is also a Mina genesis founding member and participated in Mina's builders program to develop a POC layer 2 rollup based DEX.  His
 experience at Mina and REEF has fuelled his desire to bring more zero-knowledge technology to the substrate ecosystem and has now left his role at REEF
 to focus on achieving this goal.
 
