@@ -63,7 +63,7 @@ the similarities / differences of other zero-knowledge projects in the substrate
 
 ### Team members
 
-- Francesco Risitano
+- Francesco Risitano - Project Lead
 - TBD
 
 ### Contact
