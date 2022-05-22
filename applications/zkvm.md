@@ -66,7 +66,10 @@ the similarities / differences of other zero-knowledge projects in the substrate
 ### Team members
 
 - Francesco Risitano - Project Lead
-- TBD
+
+### Advisors
+
+- [Zero Network](https://github.com/zero-network)
 
 ### Contact
 
@@ -92,6 +95,17 @@ a part-time (evenings / weekends) role building a data oracle.  Following this h
 an EVM compatible substrate based chain.  He is also a Mina genesis founding member and participated in Mina's builders program to develop a POC layer 2 rollup based DEX.  His
 experience at Mina and REEF has fuelled his desire to bring more zero-knowledge technology to the substrate ecosystem and has now left his role at REEF
 to focus on achieving this goal.
+
+#### Zero Network
+Zero Network have been working on implementing zero knowledge libraries and pallet. We have already delivered several grants
+such as `plonk` and `zk rollups`. And now working on implementing privacy-preserving transactions blockchain.
+
+- [plonk](https://github.com/w3f/Grants-Program/blob/master/applications/zk-plonk.md)
+- [zk rollups](https://github.com/w3f/Grants-Program/blob/master/applications/zk-rollups.md)
+- [zero network](https://github.com/w3f/Grants-Program/blob/master/applications/zero-network.md)
+
+We can contribute this project as we have already experienced implementing `pallet` which is compatible with `Substrate` and we have a lot of knowledge about
+optimization using parallelize, algorithm and architecture. We are also working on zk-SNARKs friendly `VM` so we would be happy to collaborate.
 
 ### Team Code Repos
 
