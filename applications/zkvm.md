@@ -22,6 +22,30 @@ This project will leverage [`Miden VM`](https://github.com/maticnetwork/miden), 
 [`Winterfell`](https://github.com/novifinancial/winterfell) proof system.  We will provide a pallet implementation that allows for *creation*, *execution* and 
 *verification* of programs on the VM.  We will also expose verification via rpc such that client side applications can perform verification of proofs.  
 
+#### API
+
+```rust
+pub fn create(origin: OriginFor<T>, init: Script, num_output: u32) { ... }
+
+pub fn call(origin: OriginFor<T>, target: Address, input: Vec<u32>) { ... }
+
+pub fn verify(origin: OriginFor<T>, target: Address, input: Vec<u32>, output: Vec<u32>, proof: StarkProof) { ... }
+```
+
+#### Data Model
+
+```rust 
+pub struct Program {
+    pub code_hash: Digest,
+    pub output: Vec<u32>,
+    pub proof: StarkProof
+}
+
+pub struct Codes {
+    pub code_hash: Digest,
+    pub code: Script
+}
+```
 
 ### Ecosystem Fit
 
