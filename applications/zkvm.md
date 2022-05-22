@@ -47,6 +47,8 @@ pub struct Codes {
 }
 ```
 
+*The API and Data Model may be subject to change 
+
 ### Ecosystem Fit
 
 The deliverables described above are intended to be used by any substrate based project that would like to leverage an easily programmable and performant STARK 
